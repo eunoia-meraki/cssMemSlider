@@ -171,7 +171,10 @@ span:active {
   cursor: url(assets/img/2.cur), auto;
 }
 
-.slider-tape, .text-tape {
-  transition: 200ms;
+.slider-tape {
+  transition: 400ms;
 }
 
+.text-tape {
+  transition: 200ms;
+}
