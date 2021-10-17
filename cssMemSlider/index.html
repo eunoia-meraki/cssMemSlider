@@ -2,14 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cssMemSlider</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cssMemSlider</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
+  <div class="root">
+    <input type="radio" name="controls" id="control1" checked>
+    <input type="radio" name="controls" id="control2">
+    <input type="radio" name="controls" id="control3">
+    <input type="radio" name="controls" id="control4">
+    <div class="slider">
+      <div class="slide-window">
+        <div class="slider-tape">
+          <div class="slide"><img src="assets/img/1.jpg" alt=""></div>
+          <div class="slide"><img src="assets/img/2.jpg" alt=""></div>
+          <div class="slide"><img src="assets/img/3.jpg" alt=""></div>
+          <div class="slide"><img src="assets/img/4.jpg" alt=""></div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="text-window">
+          <div class="text-tape">
+            <div class="text"><span>Упс</span></div>
+            <div class="text"><span>Ехидный кот</span></div>
+            <div class="text"><span>Я лучше домой пойду</span></div>
+            <div class="text"><span>Все любят корги</span></div>
+          </div>
+        </div>
+        <div class="controls">
+          <label for="control1">
+            <div class="circle"></div>
+          </label>
+          <label for="control2">
+            <div class="circle"></div>
+          </label>
+          <label for="control3">
+            <div class="circle"></div>
+          </label>
+          <label for="control4">
+            <div class="circle"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
