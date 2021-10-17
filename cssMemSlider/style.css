@@ -1,0 +1,177 @@
+.root {
+  width: 50rem;
+  height: 50rem;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.slider {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+
+.slide-window {
+  height: 75%;
+  border-radius: 1rem;
+  overflow: hidden;
+  /* border: 1px solid white; */
+}
+
+.slider-tape {
+  width: 400%;
+  height: 100%;
+  display: flex;
+  /* border: 1px solid white; */
+}
+
+#control1:checked ~ .slider .slider-tape {
+  margin-left: 0;
+}
+
+#control2:checked ~ .slider .slider-tape {
+  margin-left: -100%;
+}
+
+#control3:checked ~ .slider .slider-tape {
+  margin-left: -200%;
+}
+
+#control4:checked ~ .slider .slider-tape {
+  margin-left: -300%;
+}
+
+.slide {
+  width: 25%;
+  /* border: 1px solid white; */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.footer {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid white; */
+}
+
+.text-window {
+  width: 30%;
+  height: 2.5rem;
+  overflow: hidden;
+  /* border: 1px solid white; */
+}
+
+.text-tape {
+  width: 400%;
+  height: 100%;
+  display: flex;
+  /* border: 1px solid white; */
+}
+
+.text {
+  width: 25%;
+  /* border: 1px solid white; */
+}
+
+span {
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  color: white;
+  /* border: 1px solid white; */
+}
+
+input {
+  display: none;
+}
+
+.controls {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+
+label {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.circle {
+  width: 40%;
+  height: 40%;
+  background-color: #82b1ff;
+  border: 0.2rem solid #82b1ff;
+  border-radius: 1rem;
+}
+
+#control1:checked ~ .slider .text-tape {
+  margin-left: 0;
+}
+
+#control2:checked ~ .slider .text-tape {
+  margin-left: -100%;
+}
+
+#control3:checked ~ .slider .text-tape {
+  margin-left: -200%;
+}
+
+#control4:checked ~ .slider .text-tape {
+  margin-left: -300%;
+}
+
+#control1:checked ~ .slider label[for='control1'] .circle {
+  background-color: transparent;
+}
+
+#control2:checked ~ .slider label[for='control2'] .circle {
+  background-color: transparent;
+}
+
+#control3:checked ~ .slider label[for='control3'] .circle {
+  background-color: transparent;
+}
+
+#control4:checked ~ .slider label[for='control4'] .circle {
+  background-color: transparent;
+}
+
+label:hover .circle {
+  background-color: white;
+  border-color: white;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+label:active {
+  cursor: url(assets/img/1.cur), auto;
+}
+
+span:active {
+  cursor: url(assets/img/2.cur), auto;
+}
+
+.slider-tape, .text-tape {
+  transition: 200ms;
+}
+
