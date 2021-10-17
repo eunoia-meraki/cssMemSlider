@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid white; */
 }
 
 .slider {
@@ -14,21 +13,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: 1px solid white; */
 }
 
 .slide-window {
   height: 75%;
   border-radius: 1rem;
   overflow: hidden;
-  /* border: 1px solid white; */
 }
 
 .slider-tape {
   width: 400%;
   height: 100%;
   display: flex;
-  /* border: 1px solid white; */
 }
 
 #control1:checked ~ .slider .slider-tape {
@@ -49,13 +45,11 @@
 
 .slide {
   width: 25%;
-  /* border: 1px solid white; */
 }
 
 img {
   width: 100%;
   height: 100%;
-  /* border: 1px solid white; */
 }
 
 .footer {
@@ -63,26 +57,22 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* border: 1px solid white; */
 }
 
 .text-window {
   width: 30%;
   height: 2.5rem;
   overflow: hidden;
-  /* border: 1px solid white; */
 }
 
 .text-tape {
   width: 400%;
   height: 100%;
   display: flex;
-  /* border: 1px solid white; */
 }
 
 .text {
   width: 25%;
-  /* border: 1px solid white; */
 }
 
 span {
@@ -91,7 +81,6 @@ span {
   font-weight: lighter;
   letter-spacing: 0.1rem;
   color: white;
-  /* border: 1px solid white; */
 }
 
 input {
@@ -102,7 +91,6 @@ input {
   width: 10rem;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid white; */
 }
 
 label {
@@ -111,7 +99,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid white; */
 }
 
 .circle {
